@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to bottom, #fdba8d, #ffebb6);
+    color: #333;
+}
+
+.navbar {
+    background: linear-gradient(to right, #f72812, #f9593b);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.tips-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card {
+    background-color: #fb8a64;
+    border-radius: 12px;
+    padding: 1em;
+    width: 250px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.timer-section {
+    text-align: center;
+    padding: 3em;
+}
+
+.timer-box {
+    background: linear-gradient(to bottom, #fb8a64, #fdba8d);
+    display: inline-block;
+    padding: 2em;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#display {
+    font-size: 4em;
+    margin: 1em 0;
+    color: #fff;
+}
+
+button {
+    background-color: #f72812;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    margin: 0.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f9593b;
+}

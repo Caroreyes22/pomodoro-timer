@@ -1,0 +1,16 @@
+{% extends "pomodoro/base.html" %}
+
+{% block title %}Consejos de Estudio{% endblock %}
+
+{% block content %}
+<section class="tips-section">
+    <h2>Consejos de Estudio</h2>
+    <div class="cards">
+        {% for tip in tips %}
+        <div class="card">
+            <p>{{ tip }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
